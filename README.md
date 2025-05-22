@@ -1,0 +1,2 @@
+# Novare
+A frontend project
