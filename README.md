@@ -1,6 +1,6 @@
 # Novare – IIT Palakkad Trekking & Adventure Club
 
-![Novare Banner](Screenshot 2025-06-09 at 15.32.40.png)
+![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.32.40.png)
 
 
 ## Table of Contents
@@ -24,6 +24,11 @@ Official website for Novare, the trekking club of IIT Palakkad. A responsive Rea
 ✔️ Interactive gallery and content pages  
 ✔️ Automated CI/CD pipeline  
 ✔️ Firebase hosting  
+
+Visual Documentation
+
+![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.32.12.png)
+![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.33.27.png)
 
 ## Tech Stack
 ### Core
@@ -49,7 +54,6 @@ npm install
 npm start
 
 Deployment
-
 Firebase Setup
 
 firebase login
@@ -58,7 +62,7 @@ firebase init
 # Set public directory to "build"
 firebase deploy
 
-CI/CD
+*CI/CD
 
 Automated via GitHub Actions on push to main branch.
 
@@ -66,6 +70,8 @@ Development
 
 npm run build  # Production build
 npm test      # Run tests
+
+
 
 Contributing
 
