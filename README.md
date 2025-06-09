@@ -1,6 +1,6 @@
 # Novare – IIT Palakkad Trekking & Adventure Club
 
-![Novare Banner]([https://github.com/Saiswarna846/Novare/blob/a469744d7f9b9fa73f86a8a28583ecc09570c636/Screenshot%202025-06-09%20at%2015.32.40.png))
+![Novare Banner](Screenshot 2025-06-09 at 15.32.40.png)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
