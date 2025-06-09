@@ -25,7 +25,6 @@ Official website for Novare, the trekking club of IIT Palakkad. A responsive Rea
 ✔️ Automated CI/CD pipeline  
 ✔️ Firebase hosting  
 
-Visual Documentation
 
 ![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.32.12.png)
 ![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.33.27.png)
@@ -47,13 +46,15 @@ Visual Documentation
 - GitHub Actions
 
 ## Installation
-```bash
+```
 git clone https://github.com/Saiswarna846/Novare.git
 cd Novare
 npm install
 npm start
+```
 
-Deployment
+## Deployment
+```
 Firebase Setup
 
 firebase login
@@ -65,23 +66,28 @@ firebase deploy
 *CI/CD
 
 Automated via GitHub Actions on push to main branch.
+```
+## Development
 
-Development
-
+```
 npm run build  # Production build
 npm test      # Run tests
+```
+## Contributing
 
 
-
-Contributing
-
+```
 Fork the repository
 Create your feature branch
 Commit your changes
 Push to the branch
 Open a pull request
-License
+```
 
+## License
+
+
+```
 MIT
 
 Maintainer: Saiswarna
@@ -95,5 +101,4 @@ This version:
 - Has proper code blocks
 - Maintains professional tone
 - Is ready to copy-paste into your README.md file
-
-You can adjust the banner image path and any other details as needed. The structure follows best practices for open source project documentation.
+```
