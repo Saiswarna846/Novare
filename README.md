@@ -2,6 +2,7 @@
 
 ![Novare Banner](Screenshot 2025-06-09 at 15.32.40.png)
 
+
 ## Table of Contents
 - [Project Overview](#project-overview)
 - [Features](#features)
