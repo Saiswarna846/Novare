@@ -1,6 +1,6 @@
 # Novare – IIT Palakkad Trekking & Adventure Club
 
-![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.32.40.png)
+![Novare Banner](https://github.com/Saiswarna846/Novare/blob/923471838d13637ad675bec29ce3eba8eac0fe1b/readme_images/homepage.png)
 
 
 ## Table of Contents
@@ -26,8 +26,8 @@ Official website for Novare, the trekking club of IIT Palakkad. A responsive Rea
 ✔️ Firebase hosting  
 
 
-![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.32.12.png)
-![Novare Banner](https://github.com/Saiswarna846/Novare/blob/f4cae4a7ce336b01cb2cf26dc11f1653907bf62a/Screenshot%202025-06-09%20at%2015.33.27.png)
+![Novare Banner](https://github.com/Saiswarna846/Novare/blob/923471838d13637ad675bec29ce3eba8eac0fe1b/readme_images/Trails.png)
+![Novare Banner](https://github.com/Saiswarna846/Novare/blob/923471838d13637ad675bec29ce3eba8eac0fe1b/readme_images/Trailcontent.png)
 
 ## Tech Stack
 ### Core
