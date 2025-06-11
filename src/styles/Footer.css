@@ -1,0 +1,27 @@
+footer {
+    color : #190108;
+    position: relative;
+    width: 100%;
+    background: #190108  !important; /* Default: Transparent */
+    transition: background 0.3s ease-in-out;
+    padding: 20px 0;
+  }
+  
+  footer:hover {
+    background:#190108 !important; /* Full black on hover */
+  }
+  
+  footer .container {
+    text-align: center;
+  }
+  
+  footer .text-reset {
+    color: rgb(255, 249, 249) !important;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  footer .text-reset:hover {
+    color: #ad3d5d !important; /* Light gray on hover */
+  }
+  

@@ -1,4 +1,4 @@
-import { color, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Link } from "react-router-dom"; // Ensure Link is imported
@@ -7,13 +7,10 @@ import Calendar from "react-calendar";
 import "./UpcomingEvents.css";
 import destinations from "./destination";
 import axios from "axios";
-import Footer from "./Footer";
 
 import Nature2 from "../images/Chimmony/Chimmony.jpeg";
 import Nature3 from "../images/Munnar/Munnar.png";
 import Nature from "../utils/Trails/dhoni/dhoni_1.jpg";
-
-import navbar from "../styles/NavBar.css";
 
 
 // const events = [
@@ -34,19 +31,6 @@ import navbar from "../styles/NavBar.css";
 export default function TopDestinations() {
   const [setHoveredEvent] = useState(null);
   const [setPopupPosition] = useState({ top: 0, left: 0 });
-
-  const handleMouseEnter = (event, date) => {
-    const foundEvent = events.find((e) => e.date.toDateString() === date.toDateString());
-    if (foundEvent) {
-      const rect = event.target.getBoundingClientRect();
-      setPopupPosition({ top: rect.top - 100, left: rect.left + rect.width / 2 });
-      setHoveredEvent(foundEvent);
-    }
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredEvent(null);
-  };
 
   // const tileContent = ({ date, view }) => {
   //   if (view !== "month") return null; // Only show content in month view
@@ -201,16 +185,6 @@ export default function TopDestinations() {
   const nextSlide = () => {
     setIndex((prev) => (prev === totalSlides - 1 ? 0 : prev + 1));
   };
-
-  const prevSlide_2 = () => {
-    setIndex((prev_2) => (prev_2 === 0 ? totalSlides_2 - 1 : prev_2 - 1));
-  };
-
-  // Move right
-  const nextSlide_2 = () => {
-    setIndex((prev_2) => (prev_2 === totalSlides_2 - 1 ? 0 : prev_2 + 1));
-  };
-
 
   return (
     <div>

@@ -7,7 +7,7 @@ export default function ArticleCard(props) {
         <img
           src={props.picurl}
           className="w-100 rounded"
-          alt="Article Image"
+          // alt="Article Image"
           style={{ border: "3px solid white", borderRadius: "40px" }}
         />
       </div>

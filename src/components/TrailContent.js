@@ -4,18 +4,10 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import "../styles/styles.css";
 import trailImages, { Nature } from "../utils/Trails/trailImages";
 
-
-
-
-
 export default function TrailContent(props) {
     const { url } = props;
     const [images, setImages] = useState([]);
     const [index, setIndex] = useState(0);
-
-
-
-
     const [isHovered, setIsHovered] = useState(false);
 
     const colorChange = {

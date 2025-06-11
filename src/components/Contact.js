@@ -1,6 +1,5 @@
-import Nature from "../images/nature1.jpg";
 import { motion } from "framer-motion";
-import { FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaYoutube } from "react-icons/fa";
+import { FaInstagram, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
   return (

@@ -3,7 +3,7 @@ import Logo from "../images/Untitled design-Photoroom.png";
 import TrekkingGroup from "../images/nature2.jpg"; 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FaHiking } from "react-icons/fa";
-import { useRef, useState, useEffect } from "react";
+import { useRef } from "react";
 
 
 

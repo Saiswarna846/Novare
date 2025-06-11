@@ -1,6 +1,4 @@
-import ProfileCard from "./ProfileCard";
 import Nature from "../images/Munnar/Screenshot 2025-03-23 at 15.44.29.png";
-import Harikrishnan from "../images/P_S_Harikrishnan.jpeg";
 import { useState } from "react";
 import { motion } from "framer-motion";
 // Importing Team Members' Photos
