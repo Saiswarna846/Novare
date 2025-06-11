@@ -45,7 +45,7 @@ export default function TrailCard(props) {
             <img
               src={props.picurl}
               className="card-img-top rounded-rectangle mx-auto d-block"
-              alt="Trail Image"
+              // alt="Trail Image"
               style={{
                 width: "100%",
                 height: "300px", // Fixed height for consistency

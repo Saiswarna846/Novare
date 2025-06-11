@@ -10,7 +10,6 @@ import TrailContent from "./TrailContent";
 import ArticleContent from "./ArticleContent";
 import details from "../utils/trailcontentsDetails";
 import artdetails from "../articlecontents";
-import { AnimatePresence } from 'framer-motion';
 
 export default function AnimatedRoutes() {
     const location = useLocation()

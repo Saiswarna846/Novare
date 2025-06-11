@@ -1,0 +1,41 @@
+.testimonial-container {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    gap: 20px;
+  }
+  
+  .image-section, .testimonial-section {
+    flex: 1;
+  }
+  
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .image-section img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .testimonial-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .testimonial h3 {
+    margin: 0;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+  }
+  
