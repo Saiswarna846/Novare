@@ -16,7 +16,7 @@
 ## Project Overview
 Official website for Novare, the trekking club of IIT Palakkad. A responsive React application featuring gallery, articles, and trail information with smooth animations.
 
-**Live Site:** [https://iitpkd-novare-s32-aaf58.web.app](https://iitpkd-novare-s32-aaf58.web.app)
+**Live Site:** [https://iitpkd-novare-s32-aaf58.web.app](https://iitpkd-novare.web.app)
 
 ## Features
 ✔️ Fully responsive design  
